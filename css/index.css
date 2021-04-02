@@ -15,10 +15,13 @@ html, body {
 
 .all-wrapper {width: 100%;}
 
-.header-wrapper {width: 100%; padding: 2em; background-color: rgb(255, 127, 92); text-align: center; font-weight: bold;}
+.header-wrapper {width: 100%; padding: 2em; background-color: rgb(255, 127, 92); text-align: center; font-weight: bold; }
 .header-wrap { display: flex; justify-content: space-between; line-height: 1;}
 .header-wrap .about > i{ font-size: 1.25em; cursor: pointer; color: #111; transition: all 0.3s;}
 .header-wrap .about > i:hover {color: rgb(255, 251, 250);}
+
+.footer-wrapper { width: 100%; padding: 2em; background-color: rgb(255, 127, 92); }
+.footer-wrapper .copyright { text-align: center; font-weight: bold; line-height: 1; padding-top: 0.25em; }
 
 .desc { line-height: 1.75; }
 
@@ -33,6 +36,8 @@ html, body {
 .scarf2 {background-color: rgb(206, 222, 224); width: 100%; height: 700px; display: flex; align-items: center; padding: 10%;}
 .scarf2 .img-wrap .img { width: 600px;}
 .scarf2 .info-wrap { display: flex; flex-direction: column; padding: 2em; margin-left: 10em; }
+.scarf2 .info-wrap .img:last-child { opacity: 0; }
+.scarf2 .info-wrap:hover .img:last-child { opacity: 1; }
 .scarf2 .info-wrap > div { text-align: center; padding: 1em; }
 .scarf2 .info-wrap > div:first-child { font-weight: bold; }
 
