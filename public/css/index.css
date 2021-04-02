@@ -135,3 +135,25 @@ html, body {
 	.scarf5 .img-wrap .img { width: 300px;}
 	.scarf5 .info-wrap { padding: 1em; margin-left: 0em; }
 }
+
+@media screen and (max-width: 375px) {
+	.scarf1 { flex-wrap: wrap; display: flex; flex-direction: column; height: 550px; padding-top: 4em;}
+	.scarf1 .img-wrap .img { width: 250px;}
+	.scarf1 .info-wrap { padding: 0.5em; margin-left: 0em;}
+
+	.scarf2 { flex-wrap: wrap; display: flex; flex-direction: column; height: 550px; padding-top: 4em;}
+	.scarf2 .img-wrap .img { width: 250px;}
+	.scarf2 .info-wrap { padding: 1em; margin-left: 0em; }
+
+	.scarf3 { flex-wrap: wrap; display: flex; flex-direction: column; height: 550px; padding-top: 4em;}
+	.scarf3 .img-wrap .img { width: 250px;}
+	.scarf3 .info-wrap { padding: 1em; margin-left: 0em; }
+
+	.scarf4 { flex-wrap: wrap; display: flex; flex-direction: column; height: 550px; padding-top: 4em;}
+	.scarf4 .img-wrap .img { width: 250px;}
+	.scarf4 .info-wrap { padding: 1em; margin-left: 0em; }
+
+	.scarf5 { flex-wrap: wrap; display: flex; flex-direction: column; height: 550px; padding-top: 4em;}
+	.scarf5 .img-wrap .img { width: 250px;}
+	.scarf5 .info-wrap { padding: 1em; margin-left: 0em; }
+}
