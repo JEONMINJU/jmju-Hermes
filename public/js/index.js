@@ -1,4 +1,6 @@
 /************이벤트선언************/
+$(".header-wrap .about > i").hover(onContactShow);
+
 $(".icon-wrapper .real").click(onRealModalShow)
 $(".scarf-wrap").click(onModalWrapperClick);
 $(".scarf-wrap").find(".bt-close").click(onModalHide);
@@ -28,6 +30,10 @@ $(".scarf5-wrapper").click(onModalHide5);
 $(".close-wrap .bt-close").click(onModalHide) /* 닫기 버튼은 공통으로 써야지 */
 
 /************이벤트콜백************/
+function onContactShow() {
+	$(".header-wrap .contact-wrap").css({"opacity": "1"});
+}
+
 function onModalHide(e) {
 	e.stopPropagation();
 }

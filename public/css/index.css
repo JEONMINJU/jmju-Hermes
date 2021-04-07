@@ -22,6 +22,9 @@ body.hide {
 
 .header-wrapper {width: 100%; padding: 2em; background-color: rgb(255, 127, 92); text-align: center; font-weight: bold; }
 .header-wrap { display: flex; justify-content: space-between; line-height: 1;}
+.header-wrap .contact-wrap { display: flex; opacity: 0;}
+.header-wrap .contact-wrap > div { margin-right: 1em; }
+.header-wrap .about {display: flex;}
 .header-wrap .about > i{ font-size: 1.25em; cursor: pointer; color: #111; transition: all 0.3s;}
 .header-wrap .about > i:hover {color: rgb(255, 251, 250);}
 
@@ -230,9 +233,9 @@ body.hide {
 /* scarf3 */
 .scarf3 {background-color: /* antiquewhite; */ #f9f9f9; width: 100%; height: 700px; display: flex; align-items: center; padding: 10%; }
 .scarf3 .img-wrap .img { width: 600px; 	transition: all 0.5s; }
-/* .scarf3 .img-wrap .img:hover { opacity: 0; }
-.scarf3 .img-wrap { background-image: url(../img/에르메스2-1.jpg); box-sizing: border-box; background-position: center; background-repeat: no-repeat; background-size: cover;
-} */
+.scarf3 .img-wrap .img:hover { opacity: 0; }
+.scarf3 .img-wrap { background-image: url(../img/ny3-cody.jpg); box-sizing: border-box; background-position: center; background-repeat: no-repeat; background-size: cover;
+}
 
 .scarf3 .info-wrap { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 5em; /* border: 1px solid green; */ margin-left: 10em; }
 .scarf3 .info-wrap > div { text-align: center; padding: 1em;/*  border: 1px solid red;  */}
@@ -306,9 +309,9 @@ body.hide {
 /* scarf4 */
 .scarf4 {background-color: /* antiquewhite; */ #f9f9f9; width: 100%; height: 700px; display: flex; align-items: center; padding: 10%; }
 .scarf4 .img-wrap .img { width: 600px; 	transition: all 0.5s; }
-/* .scarf3 .img-wrap .img:hover { opacity: 0; }
-.scarf3 .img-wrap { background-image: url(../img/에르메스2-1.jpg); box-sizing: border-box; background-position: center; background-repeat: no-repeat; background-size: cover;
-} */
+.scarf4 .img-wrap .img:hover { opacity: 0; }
+.scarf4 .img-wrap { background-image: url(../img/ny4-cody.jpg); box-sizing: border-box; background-position: center; background-repeat: no-repeat; background-size: cover;
+}
 
 .scarf4 .info-wrap { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 5em; /* border: 1px solid green; */ margin-right: 10em; }
 .scarf4 .info-wrap > div { text-align: center; padding: 1em;/*  border: 1px solid red;  */}
@@ -380,9 +383,9 @@ body.hide {
 /* scarf5 */
 .scarf5 {background-color: /* antiquewhite; */ #f9f9f9; width: 100%; height: 700px; display: flex; align-items: center; padding: 10%; }
 .scarf5 .img-wrap .img { width: 600px; 	transition: all 0.5s; }
-/* .scarf3 .img-wrap .img:hover { opacity: 0; }
-.scarf3 .img-wrap { background-image: url(../img/에르메스2-1.jpg); box-sizing: border-box; background-position: center; background-repeat: no-repeat; background-size: cover;
-} */
+.scarf5 .img-wrap .img:hover { opacity: 0; }
+.scarf5 .img-wrap { background-image: url(../img/ny5-cody.jpg); box-sizing: border-box; background-position: center; background-repeat: no-repeat; background-size: cover;
+}
 
 .scarf5 .info-wrap { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 5em; /* border: 1px solid green; */ margin-left: 10em; }
 .scarf5 .info-wrap > div { text-align: center; padding: 1em;/*  border: 1px solid red;  */}
