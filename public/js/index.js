@@ -1,6 +1,12 @@
 /************이벤트선언************/
 $(".header-wrap .about > i").hover(onContactShow);
 
+$(".icon-wrapper .inspiration").click(onInspImgShow);
+$(".icon-wrapper .inspiration2").click(onInspImgShow2);
+$(".icon-wrapper .inspiration3").click(onInspImgShow3);
+$(".icon-wrapper .inspiration4").click(onInspImgShow4);
+$(".icon-wrapper .inspiration5").click(onInspImgShow5);
+
 $(".icon-wrapper .real").click(onRealModalShow)
 $(".scarf-wrap").click(onModalWrapperClick);
 $(".scarf-wrap").find(".bt-close").click(onModalHide);
@@ -43,6 +49,10 @@ function onModalWrapperClick(e) {
 }
 
 /* scarf1 */
+function onInspImgShow() {
+	$(".img-box .insp1 img").css({"display": "block"})
+}
+
 function onRealModalShow(e) {
 	$(".scarf-wrapper").css({"display": "block"})
 	$(".scarf-wrapper").css("opacity")
@@ -59,6 +69,9 @@ function onModalHide(e) {
 }
 
 /* scarf2 */
+function onInspImgShow2() {
+	$(".img-box .insp2 img").css({"display": "block"})
+}
 function onRealModalShow2(e) {
 	$(".scarf2-wrapper").css({"display": "block"})
 	$(".scarf2-wrapper").css("opacity")
@@ -74,6 +87,10 @@ function onModalHide2(e) {
 }
 
 /* scarf3 */
+function onInspImgShow3() {
+	$(".img-box .insp3 img").css({"display": "block"})
+}
+
 function onRealModalShow3(e) {
 	$(".scarf3-wrapper").css({"display": "block"})
 	$(".scarf3-wrapper").css("opacity")
@@ -89,6 +106,10 @@ function onModalHide3(e) {
 }
 
 /* scarf4 */
+function onInspImgShow4() {
+	$(".img-box .insp4 img").css({"display": "block"})
+}
+
 function onRealModalShow4(e) {
 	$(".scarf4-wrapper").css({"display": "block"})
 	$(".scarf4-wrapper").css("opacity")
@@ -104,6 +125,10 @@ function onModalHide4(e) {
 }
 
 /* scarf5 */
+function onInspImgShow5() {
+	$(".img-box .insp5 img").css({"display": "block"})
+}
+
 function onRealModalShow5(e) {
 	$(".scarf5-wrapper").css({"display": "block"})
 	$(".scarf5-wrapper").css("opacity")
